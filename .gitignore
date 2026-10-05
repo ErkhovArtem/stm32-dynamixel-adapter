@@ -1,0 +1,37 @@
+# STM32CubeIDE build directories and workspace state
+Debug/
+Release/
+build/
+.metadata/
+.settings/language.settings.xml
+
+# Compiler and linker output
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.a
+*.bin
+*.hex
+!firmware/prebuilt/*.hex
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+
+# Local editor and operating system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
